@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+    background-color: darkgrey;
+}
+.mani ul {
+    padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,200px);
+  margin-left: 550px;
+  list-style: none;
+}
+.mani ul li a{
+   text-decoration: none;
+}
+.mani1 img{
+    width: 200px;
+    height: 200px;
+}
+
+ .mani1 {
+ display: grid;
+ grid-template-columns: repeat(3,300px); 
+ gap: 20px;
+    
+}
